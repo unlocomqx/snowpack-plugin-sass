@@ -12,7 +12,7 @@ npm install --save-dev snowpack-plugin-sass
 add this plugin to your Snowpack config:  
 
 **snowpack.config.json**
-```json
+```js
 {
   "plugins": [
     "snowpack-plugin-sass"
@@ -20,7 +20,7 @@ add this plugin to your Snowpack config:
 }
 ```
 *or*
-```json
+```js
 {
   "plugins": [
     ["snowpack-plugin-sass", { /* node-sass options */ }]
